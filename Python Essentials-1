@@ -1,0 +1,329 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "ec41bd27-755f-431f-940d-fc4b7d2b76fc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello sathya\n"
+     ]
+    }
+   ],
+   "source": [
+    "  print(\"hello sathya\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "02c5d758-6117-4662-af9c-23d63678b66e",
+   "metadata": {},
+   "source": [
+    "# this is a heading\n",
+    "## this is a sub heading\n",
+    "### this is a thrid heading"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "9c0bb68b-3978-4e5e-896b-8b24fe71988c",
+   "metadata": {},
+   "source": [
+    "- Bold text-- string--or**string**\n",
+    "- Italic text-string-or*string*"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "9674de25-ec90-4580-9a13-925aa32a5e6e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']\n"
+     ]
+    }
+   ],
+   "source": [
+    "import keyword\n",
+    "print(keyword.kwlist)#it will give all keywords of python"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "3db74e2f-8b0a-4158-bbaf-de2e061d62cd",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "35"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(keyword.kwlist)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "5c495b3a-a48e-40a0-8528-0c60d9b2a6db",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid decimal literal (2862886407.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[12], line 1\u001b[1;36m\u001b[0m\n\u001b[1;33m    12var = 34\u001b[0m\n\u001b[1;37m     ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid decimal literal\n"
+     ]
+    }
+   ],
+   "source": [
+    "12var = 34"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "cfc9fbea-b712-4eff-91ab-9d6a250786b0",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "cannot assign to expression here. Maybe you meant '==' instead of '='? (1160340033.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[14], line 1\u001b[1;36m\u001b[0m\n\u001b[1;33m    var@123 = 'abc'\u001b[0m\n\u001b[1;37m    ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m cannot assign to expression here. Maybe you meant '==' instead of '='?\n"
+     ]
+    }
+   ],
+   "source": [
+    "var@123 = 'abc'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "5310c7d4-c8e2-45f6-b7e2-cc7ccd0af84b",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (752886791.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[16], line 1\u001b[1;36m\u001b[0m\n\u001b[1;33m    import=123\u001b[0m\n\u001b[1;37m          ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "import=123"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "cde2bf75-1c6c-4575-83cf-2a29a2025c6e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "21\n"
+     ]
+    }
+   ],
+   "source": [
+    "var =21\n",
+    "print(var)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "875c9da4-ac93-4b31-9fc9-992e4f87a6d2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "99\n"
+     ]
+    }
+   ],
+   "source": [
+    "VAR = 99\n",
+    "print(VAR)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "3ec2d812-eb54-40e0-b74d-8ae41e7e9428",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "21 99\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(var,VAR)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "f2a196e2-d32a-474c-9193-48a44bc965f5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Data is a money'"
+      ]
+     },
+     "execution_count": 30,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "var_12 = 'Data is a money'\n",
+    "var_12"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "bd62c0f7-485d-4a47-9616-1715969a03cb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#single line comment\n",
+    "val2 = 10#val2 is intialized with value 10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "1ec7b8a0-e17f-4d8f-a687-cdd72cc5bfb5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "val2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "bfd3e918-062b-4be5-a7ad-8b19b119269d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#mutiple\n",
+    "#line\n",
+    "#comment\n",
+    "val1 = 10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "c2b59f11-8676-42a5-98eb-d8ba350cf4aa",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (3113649871.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[38], line 1\u001b[1;36m\u001b[0m\n\u001b[1;33m    ***multiple line\u001b[0m\n\u001b[1;37m    ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "***multiple line\n",
+    "comment or Docsting***\n",
+    "val1 = 'python'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "aecf32de-09c5-48ed-a267-c0d4e93852a2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(val1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d93550ca-3bee-45eb-a6ac-e42397f4df19",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
